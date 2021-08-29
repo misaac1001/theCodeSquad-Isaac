@@ -1,0 +1,30 @@
+@import"mixins";
+
+.sectionOne__title-h2{
+    @include  titleH2
+
+}
+
+.sectionTwo__title {
+    @include  titleH2    
+}
+
+.cardIndex {
+    margin: auto;
+    width: 300px;
+    height: 230px;
+    text-align: justify;
+    border-radius: 10px;
+    border-color: black ;
+    font-family: $txt-family;
+
+
+        .cardIndex__title {
+                     @include titleH5 
+                    }
+
+        .cardIndex__txt {
+                    font-family: $txt-family;
+                    }
+}
+

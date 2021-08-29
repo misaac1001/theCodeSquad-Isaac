@@ -1,0 +1,35 @@
+@mixin header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    opacity: 80%;
+}
+@mixin title {
+    font-size: $h1-size;
+    font-family: $title-family;
+    text-decoration: underline;
+    margin: 4rem;
+    padding: auto;
+    text-align: center;  
+}
+@mixin titleH2 {
+    font-size: $h2-size;
+    font-family: $title-family;
+    text-decoration: underline;
+    margin: 4rem;
+    padding: auto;
+    text-align: center; 
+    
+}
+@mixin titleH5 {
+    font-size: $h5-size;
+    font-family: $title-family;
+    text-decoration: underline;
+    margin: 10px;
+    padding: auto;
+    text-align: center;
+}
+
+
+

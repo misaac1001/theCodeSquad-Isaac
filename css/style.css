@@ -1,0 +1,83 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box; }
+
+/* fuentes */
+.header__menu {
+  opacity: 80%; }
+
+.header__img {
+  width: 200px; }
+
+.header__backgroundOne {
+  background-image: url(../img/fotoFondo1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  opacity: 80%; }
+
+.header__iconos {
+  font-size: 1.5rem;
+  letter-spacing: 2rem; }
+  .header__iconos a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712); }
+    .header__iconos a:hover {
+      color: rgba(128, 128, 128, 0.63); }
+
+.sectionOne__title-h2 {
+  font-size: 2.125rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: underline;
+  margin: 4rem;
+  padding: auto;
+  text-align: center; }
+
+.sectionTwo__title {
+  font-size: 2.125rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: underline;
+  margin: 4rem;
+  padding: auto;
+  text-align: center; }
+
+.cardIndex {
+  margin: auto;
+  width: 300px;
+  height: 230px;
+  text-align: justify;
+  border-radius: 10px;
+  border-color: black;
+  font-family: "Montserrat", sans-serif; }
+  .cardIndex .cardIndex__title {
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: underline;
+    margin: 10px;
+    padding: auto;
+    text-align: center; }
+  .cardIndex .cardIndex__txt {
+    font-family: "Montserrat", sans-serif; }
+
+.footer__raya {
+  background-color: #eaeaea;
+  border: 0;
+  height: 2px;
+  margin-top: 9rem;
+  width: 100%; }
+
+.footer__logo-img {
+  width: 200px;
+  margin-bottom: -50px; }
+
+.footer__logo {
+  margin: 1rem;
+  padding: 1rem; }
+
+.footer__contacto {
+  margin: 5rem 1rem 1rem 1rem;
+  padding: 1rem;
+  line-height: 30px;
+  text-align: center; }

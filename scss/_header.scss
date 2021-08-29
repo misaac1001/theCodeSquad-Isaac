@@ -1,0 +1,30 @@
+@import"mixins";
+
+.header__menu {
+
+        opacity: 80%;
+        
+}
+
+.header__img {
+    width: 200px;
+}
+
+.header__backgroundOne {
+    background-image: url(../img/fotoFondo1.jpeg);
+    @include header;
+
+}
+
+.header__iconos{
+    font-size: 1.5rem;
+    letter-spacing: 2rem;
+    a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.712);
+        &:hover{
+            color: rgba(128, 128, 128, 0.63);
+        }
+    }
+}
+
