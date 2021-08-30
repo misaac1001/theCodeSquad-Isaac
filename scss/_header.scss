@@ -28,3 +28,8 @@
     }
 }
 
+.header__backgroundTwo {
+    background-image: url(../img/fotoFondo2.jpeg);
+    @include header;
+
+}

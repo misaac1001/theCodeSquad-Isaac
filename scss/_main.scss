@@ -6,7 +6,12 @@
 }
 
 .sectionTwo__title {
-    @include  titleH2    
+    @include  title    
+}
+
+.sectionOne__img {
+    width: 300px;
+    
 }
 
 .cardIndex {
@@ -28,3 +33,38 @@
                     }
 }
 
+/* EQUIPOS */
+
+.sectionOne__title {
+    @include  title  
+}
+
+.equipos__h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 30px;
+    font-size: $h2-size;
+
+
+
+    
+}
+
+.equipo_img {
+    border-radius: 100%;
+}
+
+.diseño__background {
+    background-image: url(../img/codificando.jpg);
+ 
+    @include header
+
+   
+}
+
+ .card__h5{
+        color: black;
+        font-size: 3rem;
+
+
+    }

@@ -1,9 +1,17 @@
+@charset "UTF-8";
 * {
   margin: 0rem;
   padding: 0rem;
   box-sizing: border-box; }
 
+body {
+  overflow-x: hidden; }
+
 /* fuentes */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem; }
+
 .header__menu {
   opacity: 80%; }
 
@@ -27,6 +35,14 @@
     .header__iconos a:hover {
       color: rgba(128, 128, 128, 0.63); }
 
+.header__backgroundTwo {
+  background-image: url(../img/fotoFondo2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  opacity: 80%; }
+
 .sectionOne__title-h2 {
   font-size: 2.125rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -36,12 +52,15 @@
   text-align: center; }
 
 .sectionTwo__title {
-  font-size: 2.125rem;
+  font-size: 3.125rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: underline;
-  margin: 4rem;
+  margin: 5rem;
   padding: auto;
   text-align: center; }
+
+.sectionOne__img {
+  width: 300px; }
 
 .cardIndex {
   margin: auto;
@@ -60,6 +79,36 @@
     text-align: center; }
   .cardIndex .cardIndex__txt {
     font-family: "Montserrat", sans-serif; }
+
+/* EQUIPOS */
+.sectionOne__title {
+  font-size: 3.125rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: underline;
+  margin: 5rem;
+  padding: auto;
+  text-align: center; }
+
+.equipos__h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin: 30px;
+  font-size: 2.125rem; }
+
+.equipo_img {
+  border-radius: 100%; }
+
+.diseño__background {
+  background-image: url(../img/codificando.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  opacity: 80%; }
+
+.card__h5 {
+  color: black;
+  font-size: 3rem; }
 
 .footer__raya {
   background-color: #eaeaea;
