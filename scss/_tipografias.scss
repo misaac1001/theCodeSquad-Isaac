@@ -2,3 +2,18 @@ body {
     font-family: $txt-family;
     font-size: $txt-size;
 }
+
+.title__diseño {
+    font-family: $title-family;
+    font-size: $h5-size;
+    text-decoration: underline;
+}
+
+footer {
+    font-family: $txt-family;
+    font-size: $txt-footer;
+}
+.footer__contacto {
+    font-size: 0.9rem;
+    
+}

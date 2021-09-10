@@ -7,9 +7,6 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel = "preconnect" href = "https://fonts.googleapis.com">
-        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-        <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
         <title> The Code Squad </title>
         <link rel="icon" href="img/icono.png" type="TECNOLOGIA.JPG">
       </head>
@@ -39,10 +36,10 @@
                     <a class="nav-link" href="pages/appMoviles.html">A Medida</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/AppPersonalizada.html">Personalizadas</a>
+                    <a class="nav-link" href="pages/appPersonalizada.html">Personalizadas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/portafolio.html">Trabajos</a>
+                    <a class="nav-link" href="pages/trabajos.html">Trabajos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="pages/contacto.html">Contacto</a>
@@ -66,7 +63,7 @@
         <main class="container">
           
         <section class="row sectionOne ">
-            <div class=" col-8 col-lg-8 col-md-12 col-sm-12 ">
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 p-4 ">
               <h2 class="sectionOne__title-h2">¿QUE HACEMOS?</h2> 
               <p>Nos especializamos en análisis y desarrollo de aplicaciones web y mobile. Fue concebida desde su origen
                 como una compañía de desarrollo de software donde la calidad es uno de los pilares de nuestro trabajo.
@@ -80,9 +77,9 @@
                   vista a los objetivos comunes.</p>
                   
             </div>
-                <aside class="col-4 col-lg-4 col-md-12 col-sm-12 p-4 d-flex justify-content-center ">
-      
-                  <img class="sectionOne__img" src="img/oficinas2.jpg" alt="imagen de oficina"> 
+                <aside class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 p-4 d-flex justify-content-center ">
+     
+                  <img class="sectionOne__img img-fluid" src="img/oficinas2.jpg" alt="imagen de oficina"> 
       
                 </aside>
         </section>
@@ -171,29 +168,40 @@
         </section>                            
         </main>
                       
-            <footer class="conteiner-fluid" >
+        <footer class="container" >
               <!-- Pie de página -->
-              <section class="footer d-flex justify-content-end"  style="height: 100px;">
 
-                <div class="footer__raya">
-                  <hr>
-                </div>
-                          
-                <div class="footer__logo">
+              <div class="row gap-4">
+       
+                <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 p-4 footer__logo d-flex justify-content-center ">
                   <img class="footer__logo-img" src="img/logoSinFondo.png" alt="foto prueba">
-                  <p class="fw-lighter">Derechos reservados 2021</p>
                 </div>
                           
-                <div class="footer__contacto">
-                  <p> Contactenos  </p>
-                  <p>info@codesquad.com </p>
-                  <p> +5491184340947</p>
+                <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 p-4 d-flex flex-column justify-content-center footer__contacto ">
+                  <div> Contactenos </div>
+                  <ul>
+                    <li> <i class="bi bi-telephone-forward">  Teléfono: +5491184340947 </i></li>
+                    <li> <i class="bi bi-envelope-open"> Email: info@codesquad.com </i></li>
+                    <li> <i class="bi bi-whatsapp"> WhatsApp: +5491184340947 </i></li>
+ 
+                  </ul>
+                  
                 </div>
+
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-lg-3 p-4 d-flex justify-content-center align-items-center footer__enlaces">
+                  <ul class=" footer__enlaces-ul">
+
+                    <li><a href="index.html"><i class="bi bi-house-door"> Home </i></a> </li>
+                    <li><a href=""><i class="bi bi-person-plus-fill"> Trabajos </i></a> </li>
+                    <li><a href=""><i class="bi bi-info-circle"> Contacto </i></a></li>
+
+                  </ul>
+                   
+                </div>
+
+              </div>        
                         
-                          
-              </section>
-                        
-            </footer>
+        </footer>
             
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         </body>

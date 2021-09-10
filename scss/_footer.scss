@@ -1,27 +1,52 @@
-.footer__raya{
-    background-color: #eaeaea;
-    border: 0;
-    height: 2px;
-    margin-top: 9rem;
-    width: 100%;
+
+
+footer ul li{
+    list-style: none;
 }
 
 .footer__logo-img {
     width: 200px;
-    margin-bottom: -50px;
+    text-align: center;
 
 
-}
-.footer__logo {
-    margin: 1rem;
-    padding: 1rem; 
-   
+
 }
 
 
 .footer__contacto {
-    margin: 5rem 1rem 1rem 1rem;
-    padding: 1rem;
+    
+    line-height: 20px;
+    text-align: center;
+    
+    
+}
+
+.footer__contacto div{
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer__enlaces {
     line-height: 30px;
     text-align: center;
 }
+
+.footer__enlaces ul a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+
+    
+}
+
+
+footer {
+    @media screen and (max-width: 576px) {
+        /* index-Style */
+        .responsive {
+          position: relative;
+          
+        }
+}
+}
+

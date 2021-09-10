@@ -33,3 +33,21 @@
     @include header;
 
 }
+
+.header__backgroundThree {
+    background-image: url(../img/fotoFondo3.jpeg);
+    @include header;
+
+}
+
+.header__backgroundFour {
+    background-image: url(../img/fotoFondo4.jpeg);
+    @include header;
+
+
+}
+.header__backgroundFive {
+    background-image: url(../img/fotoFondo5.jpeg);
+    @include header;
+
+}
