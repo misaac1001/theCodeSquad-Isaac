@@ -4,7 +4,7 @@
 /* index */
 
 .img-fluid {
-    max-width: 100%;
+
     height: auto;
 }
 
@@ -24,6 +24,9 @@
 
     
 }
+/* segunda seccion */
+
+
 
 .cardIndex {
     margin: auto;
@@ -290,4 +293,40 @@
 .imgTrabajos{
     width: 150px;
     
+}
+
+/* CONTACTO */
+
+.contentCent{
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+.icon-size li{
+  font-size: 30px;
+  padding: 20px 0px;
+  text-align: left;
+  i{
+      font-size: 30px;
+      padding-right: 20px;
+
+  }
+
+}
+
+.icon-style i{
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.63);
+  font-size: 35px;
+  padding: 15px 20px;
+  &:hover{
+      color: rgb(128, 128, 128);
+  }
+}
+.boton {
+  background-color:rgba(128, 128, 128, 0.63) ;
+
 }

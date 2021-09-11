@@ -80,9 +80,16 @@ footer {
   height: 400px;
   opacity: 80%; }
 
+.header__backgroundSix {
+  background-image: url(../img/fotoFondo6.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  opacity: 80%; }
+
 /* index */
 .img-fluid {
-  max-width: 100%;
   height: auto; }
 
 .sectionOne__title-h2 {
@@ -107,6 +114,7 @@ footer {
 .sectionOne__img {
   width: 300px; }
 
+/* segunda seccion */
 .cardIndex {
   margin: auto;
   width: 300px;
@@ -346,6 +354,32 @@ footer {
 .imgTrabajos {
   width: 150px; }
 
+/* CONTACTO */
+.contentCent {
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+  margin-top: 50px; }
+
+.icon-size li {
+  font-size: 30px;
+  padding: 20px 0px;
+  text-align: left; }
+  .icon-size li i {
+    font-size: 30px;
+    padding-right: 20px; }
+
+.icon-style i {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.63);
+  font-size: 35px;
+  padding: 15px 20px; }
+  .icon-style i:hover {
+    color: gray; }
+
+.boton {
+  background-color: rgba(128, 128, 128, 0.63); }
+
 footer ul li {
   list-style: none; }
 
@@ -375,3 +409,11 @@ footer ul li {
     /* index-Style */ }
     footer .responsive {
       position: relative; } }
+
+.footer {
+  background-image: url(../img/fondoFooter.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  opacity: 80%; }
