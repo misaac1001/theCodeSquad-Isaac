@@ -14,6 +14,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="../css/style.css">
         <title> The Code Squad </title>
         <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
@@ -44,7 +47,7 @@
                   <a class="nav-link" href="appMoviles.html">A Medida</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AppPersonalizada.html">Personalizadas</a>
+                  <a class="nav-link" href="appPersonalizada.html">Personalizadas</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="trabajos.html">Trabajos</a>
@@ -55,9 +58,9 @@
                 
                 </ul>
                 <div class="d-flex header__iconos">
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-youtube"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
                 </div>
     
             </div>
@@ -80,8 +83,8 @@
         </div>
         <section class="contentCent">
             <div class="row">
-              <div class="col-sm-12 col-md-4 col-lg-6">
-                <div class="card">
+              <div class="col-sm-12 col-md-4 col-lg-6 mt-5 p-5">
+                <div class="card backgroundCard">
                   <div class="card-body">
                       <ul class="icon-size">
                         <li><h3><i class="bi bi-geo-alt-fill"></i>Av. Corrientes 6400</h3>
@@ -97,9 +100,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-8 col-lg-6">
+              <div class="col-sm-12 col-md-8 col-lg-6 mt-5 p-5">
                 <form>
-                  <p>Pídenos directamente presupuesto de vídeo aéreo con drones o, si lo prefieres, envíanos tu consulta, rellenando el formulario a continuación, y te responderemos lo antes posible.</p>
+                  <p>Pídenos directamente presupuesto de la App que necesitas o, si lo prefieres, envíanos tu consulta, rellenando el formulario a continuación, y te responderemos lo antes posible.</p>
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">
                       Nombre y Apellido
@@ -116,16 +119,15 @@
                     <label for="exampleInputPassword1" class="form-label">Mensaje</label>
                     <input type="mensaje" class="form-control" id="exampleInputPassword1" >
                   </div>
-                  <button type="submit" class="btn btn-outline-secondary border border-secondary rounded-pill boton"><a href="../pages/gracias.html">¡ENVIAR!</a></button>
+                  <button type="button" class="btn btn-light boton"><a class="txtBtn" href="gracias.html">¡ENVIAR!</a></button>
                 </form><!-- FIN SECCION V -->
               </div>
           </section>
           
           <section class="contentCent">
           <div class="row">
-            <div class="col-md-12 icon-style">
-              <h2>Seguinos en Nuestras Redes Sociales</h2>
-              <a href="https://www.youtube.com/"><i class="bi bi-linkedin"></i></a>
+            <div class="col-md-12 icon-style mb-5 p-2">
+              <h2 class="sectionOne__title-h2">Seguinos en Nuestras Redes Sociales</h2>
               <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
               <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
@@ -139,40 +141,59 @@
 
 
 
-
-      <footer class="container-fluid footer" >
-        <!-- Pie de página -->
-      
-        <div class="row gap-4">
-      
-          <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 p-4 footer__logo d-flex justify-content-center ">
-            <img class="footer__logo-img" src="../img/logoSinFondo.png" alt="foto prueba">
+        <!-- FOOTER -->
+                      
+        <footer class="section bg-footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+                      <div class="">
+                          <h6 class="footer-heading text-uppercase text-white">HOME</h6>
+                          <ul class="list-unstyled footer-link mt-4">
+                              <li><a href="../index.html">Que hacemos</a></li>
+                              <li><a href="../index.html">Nuestros valores</a></li>
+                          </ul>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-12 d-flex justify-content-center ">
+                      <div class="">
+                          <h6 class="footer-heading text-uppercase text-white">Apps a medida</h6>
+                          <ul class="list-unstyled footer-link mt-4">
+                              <li><a href="appMoviles.html">Metodología </a></li>
+                              <li><a href="appMoviles.html">Proceso de diseño</a></li>
+                          </ul>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+                      <div class="">
+                          <h6 class="footer-heading text-uppercase text-white">Apps personal</h6>
+                          <ul class="list-unstyled footer-link mt-4">
+                              <li><a href="appPersonalizada.html">Nuestros paquetes </a></li>
+                          </ul>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-3  col-md-6  d-flex justify-content-center">
+                      <div class="">
+                          <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+                          <p class="contact-info mt-4">Contact us if need help </p>
+                          <p class="contact-info">(+54) 223-421252</p>
+                          <div class="d-flex header__iconos">
+                            <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
           </div>
-                    
-          <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 p-4 d-flex flex-column justify-content-center footer__contacto ">
-            <div> Contactenos </div>
-            <ul>
-              <li> <i class="bi bi-telephone-forward">  Teléfono: +5491184340947 </i></li>
-              <li> <i class="bi bi-envelope-open"> Email: info@codesquad.com </i></li>
-              <li> <i class="bi bi-whatsapp"> WhatsApp: +5491184340947 </i></li>
-      
-            </ul>
-            
+  
+          <div class="text-center mt-5">
+              <p class="footer-alt mb-0 f-14">2021 © Mariana Isaac, All Rights Reserved</p>
           </div>
-      
-          <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-lg-3 p-4 d-flex justify-content-center align-items-center footer__enlaces">
-            <ul class=" footer__enlaces-ul">
-      
-              <li><a href="../index.html"><i class="bi bi-house-door"> Home </i></a> </li>
-              <li><a href=""><i class="bi bi-person-plus-fill"> Trabajos </i></a> </li>
-              <li><a href=""><i class="bi bi-info-circle"> Contacto </i></a></li>
-      
-            </ul>
-             
-          </div>
-      
-        </div>        
-                  
       </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>

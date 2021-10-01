@@ -9,6 +9,23 @@ body {
     text-decoration: underline;
 }
 
+.sectionOne__title {
+    @include  title  
+}
+
+.sectionOne__title-h2{
+    @include  titleH2
+
+}
+
+.menu {
+    font-family: 'Lato', sans-serif, 180;
+}
+
+.sectionTwo__title {
+    @include  title    
+}
+
 footer {
     font-family: $txt-family;
     font-size: $txt-footer;

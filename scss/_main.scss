@@ -4,53 +4,191 @@
 /* index */
 
 .img-fluid {
-
     height: auto;
+    padding: 20px;
+    border-radius: 50%;
 }
 
-
-.sectionOne__title-h2{
-    @include  titleH2
-
-}
-
-.sectionTwo__title {
-    @include  title    
+.sectionOne__txt {
+  padding: 20px;
 }
 
 .sectionOne__img {
     
-    width: 300px;
-
+    width: 400px;
     
 }
+
 /* segunda seccion */
 
-
-
-.cardIndex {
-    margin: auto;
-    width: 300px;
-    height: 230px;
-    text-align: justify;
-    border-radius: 10px;
-    border-color: black ;
-    font-family: $txt-family;
-
-
-        .cardIndex__title {
-                     @include titleH5 
-                    }
-
-        .cardIndex__txt {
-                    font-family: $txt-family;
-                    }
+.cardValores {
+  padding: 20px;
+  
+            img {
+              border-radius: 60%;
+            }
 }
+
+.wrap{
+	width: 90%;
+	max-width: 1170px;
+	margin: 50px auto;
+}
+
+.miswitch{
+	border: 1px solid #225B78;
+	border-radius: 20px;
+	color: #fff;
+	position: relative;
+	margin: 0px auto 50px;
+	width: 220px;
+  height: 70px;
+	overflow: hidden;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.miswitch a{
+	font-size: 30px;
+	z-index: 2;
+	position: relative;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.swicht-btn{
+	position: absolute;
+	background: #0c1f2869;
+	width: 50%;
+	height: 90%;
+	border-radius: 20px;
+	top: 2px;
+	left: 2px;
+	z-index: 1;
+	transition: all .5s;
+}
+
+.on{
+	left: 97px;
+}
+
+/* Tabla de precio*/
+
+.pricing-wrap{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.pricing-table{
+	width: 32%;
+	transition: transform .5s ease;
+
+	-webkit-perspective: 2000px;
+	perspective: 2000px;
+}
+
+.pricing-table:hover{
+	transform: scale(1.07);
+}
+
+.pricing-table-cont{
+	background: #fff;
+	text-align: center;
+	position: relative;
+	height: 500px;
+
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	transition: .3s ease;
+}
+
+.pricing-table-month , .pricing-table-year{
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.pricing-table-year{
+	transform: rotateY(180deg);
+}
+
+.rotando-tabla{
+	transform: rotateY(180deg);
+}
+
+.pricing-table-head{
+	color: #173D50;
+	padding: 30px 0px;
+}
+
+.pricing-table-head h2{
+	font-size: 16px;
+	letter-spacing: 2px;	
+	font-weight: bold;
+}
+
+.pricing-table-head h3{
+	font-size: 60px;
+	font-weight: 400;
+	display: inline;
+}
+
+.pricing-table-head h3 sup, .pricing-table-head h3 sub{
+	font-size: 20px;
+	color: #ABB8C0;
+	font-weight: 600;
+}
+
+.pricing-table-head h3 sub{
+	font-size: 13px;
+}
+
+.pricing-table-head.estandar-title h2,
+.pricing-table-head.estandar-title h3,
+.pricing-table-head.estandar-title h3 sup,
+.pricing-table-head.estandar-title h3 sub{
+	color: #E97D68;
+}
+
+.pricing-table-list li{
+	background: #F1F3F5;
+	padding: 10px 0;
+}
+
+.pricing-table-list li:nth-child(2n){
+	background: #fff;
+}
+
+.pricing-table-button{
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	background: #0C1F28;
+	color: #fff;
+	margin-top: 23px;
+}
+
+.pricing-table-button.estandar{
+	background: #E97D68;
+}
+
 
 /* EQUIPOS */
 
-.sectionOne__title {
-    @include  title  
+
+
+.equipos {
+  padding: 20px;
 }
 
 .equipos__h2 {
@@ -58,34 +196,43 @@
     text-align: center;
     margin: 30px;
     font-size: $h2-size;
-    
+    font-family: $title-family;
+  
 }
 
-.equipo_img {
-    border-radius: 100%;
+/* video */
+.videoHead {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
 }
 
-.diseño__background {
-    background-image: url(../img/codificando.jpg);
- 
-    @include header
-
+.video {
+  width: 100%;
+  height: 100%;
 }
 
-.card__h5{
-        color: black;
-        font-size: 3rem;
-
-    }
-
-.cardEquipo-img {
-    height: 700px;
+.design {
+  width: 100%;
+  height: 100%;
+  top: 1000px;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 /* app moviles */
 
 .cardM1 {
     width: 400px;
+    height: auto;
+    
+
 
     .icon1 {
     font-size: 120px;
@@ -103,6 +250,10 @@
         text-align: justify;
     }
 
+}
+
+.backgroundCard {
+  background-color: #f8f8f8b0;
 }
 
 /* trabajos */
@@ -289,6 +440,13 @@
       transition-duration: 0s;
     }
   }
+  /* fin de cards */
+
+.cardJob {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: auto;
+}
 
 .imgTrabajos{
     width: 150px;
@@ -329,4 +487,13 @@
 .boton {
   background-color:rgba(128, 128, 128, 0.63) ;
 
+}
+.txtBtn {
+  text-decoration: none;
+  color: white;
+}
+
+.gracias{
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
