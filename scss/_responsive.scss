@@ -1,5 +1,12 @@
 
 /* RESPONSIVE INDEX ===============================  */
+
+@media screen and (max-width: 1400px){
+	.sectionOne__img img{
+		width: 200px;
+    height: auto;
+	}
+}
 @media screen and (max-width: 790px){
 	.pricing-table{
 		width: 72%;
@@ -18,6 +25,7 @@
     .sectionOne__title {
       font-size: 30px;
     }
+
 }
 
 @media screen and (max-width: 500px){

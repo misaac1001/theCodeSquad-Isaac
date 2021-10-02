@@ -1,6 +1,6 @@
 .bg-footer {
     background-color: #33383c;
-    padding: 50px 0 30px;
+   
 }
 .footer-heading {
     letter-spacing: 2px;
@@ -32,34 +32,10 @@
     display: inline-block;
 }
 
-.facebook {
-    background-color: #4e71a8;
-    color: #ffffff;
-    
-}
-
-.twitter {
-    background-color: #55acee;
-    color: #ffffff;
-}
-
-.google {
-    background-color: #d6492f;
-    color: #ffffff;
-}
-
-.apple {
-    background-color: #424041;
-    color: #ffffff;
-}
-
-.footer-alt {
-    color: #acacac;
-}
-
 .footer-heading {
     position: relative;
     padding-bottom: 12px;
+    padding-top: 20px;
 }
 
 .footer-heading:after {
@@ -75,4 +51,8 @@
 
 .redes {
     text-decoration: none;
+}
+
+.footer-alt {
+    color: white;
 }

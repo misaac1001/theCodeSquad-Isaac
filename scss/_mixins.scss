@@ -3,15 +3,18 @@
     background-position: center center;
     background-size: cover;
     height: 400px;
-    opacity: 80%;
+    opacity: 70%;
+
 }
 @mixin title {
     font-size: $h1-size;
     font-family: $title-family;
-    text-decoration: underline;
+    color: rgb(97, 96, 96);
     margin-bottom: 30px;
     margin-top: 60px;
-    text-align: center; 
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 2px 2px 7px rgb(0, 0, 0); 
 }
 @mixin titleH2 {
     font-size: $h2-size;
@@ -19,10 +22,9 @@
     text-decoration: underline;
     margin-bottom: 30px;
     padding: auto;
-    text-align: center; 
-
-    
+    text-align: center;     
 }
+
 @mixin titleH5 {
     font-size: $h5-size;
     font-family: $title-family;

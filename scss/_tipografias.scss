@@ -18,6 +18,15 @@ body {
 
 }
 
+.title-card {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    padding: auto;
+    text-align: center;  
+    font-family: $txt-family;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
 .menu {
     font-family: 'Lato', sans-serif, 180;
 }
