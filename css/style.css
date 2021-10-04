@@ -407,7 +407,7 @@ footer {
   background-image: url(../img/social.jpg); }
 
 .cards:nth-child(2):before {
-  background-image: url(../img/diseños.jpg); }
+  background-image: url(../img/disenos.jpg); }
 
 .cards:nth-child(3):before {
   background-image: url(../img/comercio.jpg); }
@@ -416,7 +416,7 @@ footer {
   background-image: url(../img/citas.jpg); }
 
 .cards:nth-child(5):before {
-  background-image: url(../img/niños.jpg); }
+  background-image: url(../img/ninos.jpg); }
 
 .cards:nth-child(6):before {
   background-image: url(../img/entrenar.jpg); }
